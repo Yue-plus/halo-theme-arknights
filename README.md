@@ -8,7 +8,8 @@
 mkdir "~/halo-dev" || exit
 cd "~/halo-dev/"
 wget https://dl.halo.run/release/halo-1.4.12.jar
-./halo-dev.ps1
+git clone git@github.com:Yue-plus/halo-theme-arknights.git templates\themes\arknights
+./templates/themes/arknights/halo-dev.ps1
 ```
 
 ### 链接
