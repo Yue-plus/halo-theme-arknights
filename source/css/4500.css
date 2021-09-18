@@ -1,10 +1,6 @@
 /**
  * 在 `400.ftl` 与 `500.ftl` 中使用
  */
-@font-face {
-    font-family: 'JetBrains Mono';
-    src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
-}
 
 html,
 body {
