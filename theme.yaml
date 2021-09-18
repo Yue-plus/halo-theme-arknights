@@ -1,0 +1,12 @@
+# 主题配置文件说明：https://docs.halo.run/zh/developer-guide/theme/config-files
+id: Yue-plus_halo-theme-arknights
+name: arknights
+author:
+  name: Yue-plus
+  website: https://github.com/Yue-plus
+description: 明日方舟罗德岛阵营的 Halo 主题
+logo: https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png
+website: https://github.com/Yue-plus/halo-theme-arknights.git
+repo: https://github.com/Yue-plus/halo-theme-arknights.git
+version: 0.0.0
+require: 1.4.11
