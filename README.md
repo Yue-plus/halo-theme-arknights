@@ -4,6 +4,13 @@
 
 ## 参与开发
 
+```ps1
+mkdir "~/halo-dev" || exit
+cd "~/halo-dev/"
+wget https://dl.halo.run/release/halo-1.4.12.jar
+./halo-dev.ps1
+```
+
 ### 链接
 
 - [Halo 官网](https://halo.run/)
