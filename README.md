@@ -4,6 +4,8 @@
 
 ## 参与开发
 
+配置开发环境：
+
 ```ps1
 mkdir "~/halo-dev" || exit
 cd "~/halo-dev/"
@@ -16,3 +18,4 @@ git clone git@github.com:Yue-plus/halo-theme-arknights.git templates\themes\arkn
 
 - [Halo 官网](https://halo.run/)
 - [Halo 主题开发指南](https://docs.halo.run/zh/developer-guide/theme)
+- [FreeMarker](http://freemarker.foofun.cn/)
