@@ -5,6 +5,7 @@
     <title>${blog_title!}</title>
     <meta name="keywords" content="${meta_keywords!}"/>
     <meta name="description" content="${meta_description!}" />
+    <link rel="stylesheet" href="${theme_base!}/source/css/font.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/global.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/layout.css" />
     <link rel="stylesheet" href="${theme_base!}/source/css/responsive.css" />
