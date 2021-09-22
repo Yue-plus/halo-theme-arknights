@@ -6,7 +6,7 @@
       <link rel="alternate" type="application/rss+xml" title="atom 1.0" href="${atom_url!}">
       <title>エラー発生。</title>
       <link rel="stylesheet" href="${theme_base!}/source/css/font.css">
-      <link rel="stylesheet" href="${theme_base!}/source/css/4500.css">
+      <link rel="stylesheet" href="${theme_base!}/source/css/httpStatus.css">
     </head>
     <body>
       <main>
