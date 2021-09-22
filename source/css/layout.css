@@ -1,0 +1,10 @@
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+article {
+  flex-grow: 1;
+}
