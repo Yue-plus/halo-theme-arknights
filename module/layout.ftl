@@ -7,6 +7,7 @@
     <meta name="description" content="${meta_description!}" />
     <link rel="stylesheet" href="${theme_base!}/source/css/global.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/layout.css" />
+    <link rel="stylesheet" href="${theme_base!}/source/css/responsive.css" />
     <@global.head />
   </head>
   <body>
