@@ -10,6 +10,10 @@
   font-family: "JetBrains Mono";
   src: local("JetBrains Mono"), url("/themes/arknights/source/font/JetBrainsMono-Regular.woff2") format("woff2");
 }
+body {
+  font-family: "JetBrains Mono", "Microsoft YaHei", "宋体", sans-serif;
+}
+
 html, body {
   height: 100%;
 }

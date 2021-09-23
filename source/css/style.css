@@ -7,6 +7,10 @@
   font-family: "JetBrains Mono";
   src: local("JetBrains Mono"), url("/themes/arknights/source/font/JetBrainsMono-Regular.woff2") format("woff2");
 }
+body {
+  font-family: "JetBrains Mono", "Microsoft YaHei", "宋体", sans-serif;
+}
+
 html {
   -ms-scrollbar-base-color: #fe2;
   -ms-scrollbar-track-color: #69620a;
@@ -37,7 +41,6 @@ body {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "JetBrains Mono", "Microsoft YaHei", "宋体", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -150,28 +153,192 @@ article {
 }
 
 @media (max-width: 768px) {
+  main {
+    margin: 0 auto;
+    padding: 0 12px;
+    box-sizing: border-box;
+    flex-direction: column;
+    overflow: visible;
+  }
+  main article {
+    width: 100%;
+    max-height: none;
+    padding: 0;
+    flex-shrink: 0;
+    overflow: visible;
+  }
+
+  .highlight, blockquote {
+    margin: 0;
+  }
+
   aside {
     width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  aside h1 {
+    text-align: center;
+    margin: 0;
+  }
+  aside footer {
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+  }
+
+  #paginator {
+    margin: 20px 0 0 0;
+  }
+  #paginator a, #paginator span {
+    margin: 5px 5px 0 0;
+  }
+
+  #post-bg {
+    margin: 0;
+    padding: 5px 10px 0 10px;
+  }
+
+  #post-index {
+    margin: 0;
+  }
+
+  #logo {
+    height: 0;
+    margin: 0;
+  }
+  #logo img {
+    opacity: 0.05;
+    position: fixed;
+    bottom: -50px;
+    left: -46%;
+    pointer-events: none;
+  }
+
+  #total {
+    text-align: center;
+    margin: 0;
+  }
+  #total .total-title {
+    font-size: medium;
+  }
+  #total .total-number {
+    font-size: large;
+  }
+
+  #total-archives {
+    width: auto;
+  }
+  #total-archives .total-title {
+    display: inline-block;
+  }
+
+  #to-index, #to-top {
+    right: -10px !important;
+  }
+
+  #to-index {
+    bottom: 56px;
+  }
+
+  #to-top {
+    bottom: 16px;
+  }
+
+  #post-index {
+    margin: 16px 10px 0 10px;
+  }
+
+  #archive-flex {
+    flex-direction: column;
+  }
+
+  #archive-aside {
+    order: 1;
+  }
+
+  #Categories {
+    margin: 10px;
   }
 }
 @media (min-width: 769px) {
+  main {
+    width: 96%;
+  }
+
   aside {
     width: 160px;
+    transition: 0s;
+  }
+  aside h1 {
+    font-size: x-large;
+  }
+  aside a img {
+    transition: background-color 1s;
+  }
+  aside a img:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  #archive-aside {
+    max-width: 36%;
   }
 }
 @media (min-width: 992px) {
+  main {
+    width: 90%;
+  }
+
   aside {
     width: 210px;
+    transition: 0.3s;
+  }
+  aside h1 {
+    font-size: xx-large;
   }
 }
 @media (min-width: 1200px) {
+  .recent-post img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
   aside {
     width: 280px;
   }
+  aside h1 {
+    font-size: 48px;
+  }
+  aside #total-archives .total-title {
+    font-size: 36px;
+  }
+  aside #total-archives .total-number {
+    font-size: 48px;
+  }
+  aside #total-tags, aside #total-categories {
+    font-size: 23px;
+  }
 }
 @media (min-width: 1920px) {
+  .recent-post img {
+    width: 80%;
+  }
+
   aside {
     width: 450px;
+  }
+  aside h1 {
+    font-size: 68px;
+  }
+  aside #total-archives .total-title {
+    font-size: 42px;
+  }
+  aside #total-archives .total-number {
+    font-size: 53px;
+  }
+  aside #total-tags, aside #total-categories {
+    font-size: 32px;
   }
 }
 header {
