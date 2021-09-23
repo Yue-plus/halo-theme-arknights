@@ -142,6 +142,13 @@ article {
   overflow: hidden;
 }
 
+#canvas-dust {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 @media (max-width: 768px) {
   aside {
     width: 100%;
