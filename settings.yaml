@@ -1,2 +1,14 @@
 # 主题配置文件说明：https://docs.halo.run/zh/developer-guide/theme/config-files
-Dr: "Yue_plus"
+base:
+  label: '基本设置'
+  items:
+    canvas_dust:
+      label: CanvasDust 效果
+      type: radio
+      data-type: bool
+      default: true
+      options:
+        - value: true
+          label: 启用
+        - value: false
+          label: 禁用

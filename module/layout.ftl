@@ -17,7 +17,9 @@
         <#include "layout/main/aside/footer.ftl" />
       </aside>
     </main>
-    <canvas id="canvas-dust"></canvas>
+    <#if settings.canvas_dust>
+      <canvas id="canvas-dust"></canvas>
+    </#if>
     <script src="${theme_base!}/source/arknights.js"></script>
   </body>
 </html>
