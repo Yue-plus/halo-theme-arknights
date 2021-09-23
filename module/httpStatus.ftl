@@ -5,12 +5,12 @@
       <meta http-equiv="content-type" content="text/html; charset=utf-8">
       <link rel="alternate" type="application/rss+xml" title="atom 1.0" href="${atom_url!}">
       <title>エラー発生。</title>
-      <link rel="stylesheet" href="${theme_base!}/source/css/sass/httpStatus.css">
+      <link rel="stylesheet" href="${theme_base!}/source/css/httpStatus.css">
     </head>
     <body>
       <main>
         <a id="logo" href="/">
-          <img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="to home"/>
+          <img src="${blog_logo!}" alt="to home"/>
         </a>
         <div id="error">
           <h1>エラー発生。</h1>
