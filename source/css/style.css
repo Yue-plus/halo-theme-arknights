@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@font-face {
+  font-family: BenderLight;
+  src: local("Bender"), url("/themes/arknights/source/font/BenderLight.ttf");
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: local("JetBrains Mono"), url("/themes/arknights/source/font/JetBrainsMono-Regular.woff2") format("woff2");
+}
+html {
+  -ms-scrollbar-base-color: #fe2;
+  -ms-scrollbar-track-color: #69620a;
+  scrollbar-width: thin;
+  scrollbar-color: #fe2 #69620a;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fe2;
+  border-radius: 0.25em;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0.25em;
+  background-color: #9b8b16;
+}
+
+body {
+  color: #c4c4c4;
+  background-color: #141516;
+  background-image: url(/themes/arknights/source/img/bg.jpg);
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "JetBrains Mono", "Microsoft YaHei", "宋体", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+a {
+  color: #22bbff;
+  padding: 0 3px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: #000;
+  background-color: #22bbff;
+}
+a:active {
+  color: #000;
+  background-color: #fe2;
+}
+
+time {
+  font-family: BenderLight, sans-serif;
+}
+
+code, pre {
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+code {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0 3px;
+}
+
+kbd {
+  color: #000;
+  background-color: #fe2;
+  margin: 0 2px;
+  border-radius: 2px;
+  padding: 0 3px;
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+strong, em {
+  color: #fff;
+}
+
+strong em, em strong {
+  color: #C0392B;
+}
+
+blockquote {
+  border-left: #2bf solid 5px;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: 0.3s;
+}
+blockquote blockquote {
+  margin: 0;
+  padding-right: 0;
+}
+blockquote blockquote:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+table {
+  border: 0;
+  border-collapse: collapse;
+}
+table th {
+  color: #000;
+  background-color: #fff;
+  border: #fff solid 1px;
+  padding: 0 10px;
+}
+table td {
+  padding: 5px 8px;
+  border: #2bf solid 1px;
+}
+table td:hover {
+  background-color: rgba(34, 187, 255, 0.1);
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+article {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+aside {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: #fff;
+  padding: 0 20px;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+@media (max-width: 768px) {
+  aside {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  aside {
+    width: 160px;
+  }
+}
+@media (min-width: 992px) {
+  aside {
+    width: 210px;
+  }
+}
+@media (min-width: 1200px) {
+  aside {
+    width: 280px;
+  }
+}
+@media (min-width: 1920px) {
+  aside {
+    width: 450px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -5,8 +5,7 @@
       <meta http-equiv="content-type" content="text/html; charset=utf-8">
       <link rel="alternate" type="application/rss+xml" title="atom 1.0" href="${atom_url!}">
       <title>エラー発生。</title>
-      <link rel="stylesheet" href="${theme_base!}/source/css/font.css">
-      <link rel="stylesheet" href="${theme_base!}/source/css/httpStatus.css">
+      <link rel="stylesheet" href="${theme_base!}/source/css/sass/httpStatus.css">
     </head>
     <body>
       <main>

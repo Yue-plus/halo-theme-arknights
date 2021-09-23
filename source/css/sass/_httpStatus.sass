@@ -1,0 +1,56 @@
+/**
+ * 在 `module/httpStatus.ftl` 中使用
+ */
+@import "font"
+
+html,body
+  height: 100%
+
+body
+  margin: 0
+  color: #FFF
+  background-color: #141516
+  background-position: 50% 50%
+  background-repeat: no-repeat
+  background-image: url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg)
+
+main
+  padding-top: 80px
+  text-align: center
+
+#logo
+  vertical-align: middle
+  display: inline-block
+  img
+    width: 300px
+
+#error
+  text-align: left
+  vertical-align: middle
+  display: inline-block
+  a
+    color: #2BF
+    padding: 3px 10px
+    font-size: larger
+    text-decoration: none
+    &:hover
+      color: #000
+      background-color: #2BF
+
+h1
+  font-size: 60px
+  color: #FE2
+
+h2
+  font-size: 32px
+  font-family: "JetBrains Mono", sans-serif
+
+@media (max-width: 768px)
+  #logo img
+    width: auto
+    height: 380px
+    opacity: .23
+    position: fixed
+    bottom: -30px
+    left: -38%
+    pointer-events: none

@@ -1,0 +1,99 @@
+html
+  // IE 滚动条
+  -ms-scrollbar-base-color: #fe2
+  -ms-scrollbar-track-color: #69620a
+  // FireFox 滚动条（这是不受官方支持的属性）
+  scrollbar-width: thin
+  scrollbar-color: #fe2 #69620a
+
+// Chrome 滚动条
+::-webkit-scrollbar 
+  width: 6px
+  height: 6px
+::-webkit-scrollbar-thumb 
+  background-color: #fe2
+  border-radius: .25em
+::-webkit-scrollbar-track 
+  border-radius: .25em
+  background-color: #9b8b16
+
+body 
+  color: #c4c4c4
+  background-color: #141516
+  background-image: url(/themes/arknights/source/img/bg.jpg)
+  background-attachment: fixed
+  background-position: 50% 50%
+  background-repeat: no-repeat
+  background-size: cover
+  font-family: "JetBrains Mono", 'Microsoft YaHei', '\5b8b\4f53', sans-serif
+  display: flex
+  flex-direction: column
+  align-items: stretch
+  margin: 0
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+
+h1, h2, h3, h4, h5, h6 
+  color: #fff
+
+a
+  color: #22bbff
+  padding: 0 3px
+  text-decoration: none
+  transition: .3s
+  &:hover
+    color: #000
+    background-color: #22bbff
+  &:active
+    color: #000
+    background-color: #fe2
+
+time
+  font-family: BenderLight, sans-serif
+code, pre
+  font-family: "JetBrains Mono", sans-serif
+code 
+  background-color: rgba(#fff, .1)
+  padding: 0 3px
+
+kbd 
+  color: #000
+  background-color: #fe2
+  margin: 0 2px
+  border-radius: 2px
+  padding: 0 3px
+  font-family: "JetBrains Mono", sans-serif
+
+
+strong, em
+  color: #fff
+strong em, em strong
+  color: #C0392B
+
+blockquote 
+  border-left: #2bf solid 5px
+  padding: 10px 20px
+  background-color: rgba(255, 255, 255, .05)
+  transition: .3s
+  blockquote
+    margin: 0
+    padding-right: 0
+    &:hover
+      background-color: rgba(#fff, .1)
+
+table 
+  border: 0
+  border-collapse: collapse
+  th
+    color: #000
+    background-color: #fff
+    border: #fff solid 1px
+    padding: 0 10px
+  td
+    padding: 5px 8px
+    border: #2bf solid 1px
+    &:hover
+      background-color: rgba(#2bf, .1)
