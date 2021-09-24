@@ -2,6 +2,12 @@
 base:
   label: '基本设置'
   items:
+    dr_link:
+      label: Dr.{ Link }
+      type: text
+      default: '/about'
+      placeholder: 'URL'
+      description: '侧边栏 Dr.{博主昵称} 跳转链接'
     canvas_dust:
       label: CanvasDust 效果
       type: radio
