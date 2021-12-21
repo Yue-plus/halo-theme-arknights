@@ -18,3 +18,9 @@ base:
           label: 启用
         - value: false
           label: 禁用
+    copyright:
+      label: ©
+      type: text
+      placeholder: '版权信息'
+      default: ''
+      description: '版权信息'
