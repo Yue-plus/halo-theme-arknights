@@ -16,4 +16,5 @@
   </nobr>
   <wbr />
   <nobr>by&nbsp;<a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr>
+  <@global.footer />
 </footer>
