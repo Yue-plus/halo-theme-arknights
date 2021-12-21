@@ -19,8 +19,12 @@ base:
         - value: false
           label: 禁用
     copyright:
-      label: ©
+      label: '版权信息（©）'
       type: text
       placeholder: '版权信息'
       default: ''
-      description: '版权信息'
+    icp:
+      label: 'ICP 备案号'
+      type: text
+      placeholder: 'ICP 备案号'
+      default: ''
