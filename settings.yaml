@@ -8,8 +8,13 @@ base:
       default: '/about'
       placeholder: 'URL'
       description: '侧边栏 Dr.{博主昵称} 跳转链接'
+    background_image:
+      label: 背景图片
+      type: text
+      placeholder: 'URL'
+      default: ''
     canvas_dust:
-      label: CanvasDust 效果
+      label: CanvasDust 背景效果
       type: radio
       data-type: bool
       default: true
@@ -18,6 +23,16 @@ base:
           label: 启用
         - value: false
           label: 禁用
+    aside_in_right:
+      label: 侧边栏位于
+      type: radio
+      data-type: bool
+      default: true
+      options:
+        - value: true
+          label: 右侧
+        - value: false
+          label: 左侧
     copyright:
       label: '版权信息（©）'
       type: text
